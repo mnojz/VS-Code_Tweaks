@@ -12,6 +12,8 @@ here is mine:
     "file:///C:/Users/hello/.vscode/custom/tweak.js"
   ],
 ```
+for linux run this command first:
+```sudo chown -R $USER /usr/share/code   ```
 
 4. finally press ctrl+shift+p to open command palette and type "enable custom css and js" click on it.
 
