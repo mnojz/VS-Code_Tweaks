@@ -14,6 +14,8 @@ here is mine:
 ```
 for linux run this command first:
 ```sudo chown -R $USER /usr/share/code   ```
+or 
+```chown -R $USER /opt/visual-studio-code/ -R```
 
 4. finally press ctrl+shift+p to open command palette and type "enable custom css and js" click on it.
 
