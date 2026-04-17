@@ -25,12 +25,12 @@
 
 /* replacing vscode icon from no active tab background with html 5 looking svg art along with other symbols */
 .letterpress {
-  background-image: url("/home/feline/.config/Code/custom/art.svg") !important;
+  background-image: url("/home/manoj/.config/Code/custom/art.svg") !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: contain !important;
   width: 60% !important;
-  mask-image: url("/home/feline/.config/Code/custom/mask.png");
+  mask-image: url("/home/manoj/.config/Code/custom/mask.png");
   mask-size: contain;
   mask-position: center;
   mask-repeat: no-repeat;
@@ -76,4 +76,9 @@
 /* styling app icon titlebar */
 .titlebar-left > .window-appicon {
   filter: hue-rotate(349deg) brightness(1.7) grayscale(0.7);
+}
+
+/* styling activity bar  */
+.composite-bar-container{
+  justify-content: center;
 }
